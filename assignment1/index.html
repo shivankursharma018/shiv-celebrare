@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>Celebrare</header>
+
+    <main>
+        <div id="img-holder">
+            <div id="text-container"></div>
+        </div>
+
+        <div id="controls">
+            <div id="text-control">
+                <div class="control-section">
+                    <label>Font</label>
+                    <select id="font-select" style="width: 70%;">
+                        <option value="Arial">Arial</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Helvetica">Helvetica</option>
+                        <option value="Consolas">Consolas</option>
+                    </select>
+                </div>
+                <div class="control-section">
+                    <label>Size</label>
+                    <input id="font-size" type="number" min="10" value="24" max="100" placeholder="Size" />
+                    <label>Color</label>
+                    <input id="font-color" type="color" />
+                </div>
+            </div>
+
+            <div id="text-add">
+                <input id="text-input" type="text" placeholder="ADD TEXT" required />
+                <button id="add-text">&check;</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with &hearts; by Shivankur Sharma</p>
+        <a href="">github link</a>
+    </footer>
+</body>
+</html>
